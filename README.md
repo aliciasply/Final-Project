@@ -2,7 +2,7 @@
 # Project 3: “Fake News!” Detector
 
 
-![Logo](Images/fake_news_logo.jpg)
+![Logo](Image/fake_news_logo.jpg)
 
 # Background and Motivation: 
 
