@@ -14,6 +14,12 @@ In the age of social media, it has become more important than ever to be wary of
   * Which news sources create the most “Fake News.”
   * Which is shared and liked more, “Fake” or Real News? Why?
 
+| Data Resources |
+|------------------------------------|
+|[Facebook](https://www.facebook.com/)| 
+|[Twitter](https://twitter.com/)| 
+
+
 
 ### Data Analytics Team:
 * [Alicia](https://github.com/aliciasply)
