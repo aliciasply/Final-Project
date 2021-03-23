@@ -24,6 +24,6 @@ In the age of social media, it has become more important than ever to be wary of
 
 ### Data Analytics Team:
 * [Alicia](https://github.com/aliciasply)
-* [Madha](https://github.com/medha795)
+* [Medha](https://github.com/medha795)
 * [Miguel](https://github.com/52Godfrey)
 * [Paola](https://github.com/paola1395)
