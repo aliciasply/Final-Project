@@ -18,6 +18,7 @@ In the age of social media, it has become more important than ever to be wary of
 |------------------------------------|
 |[Facebook](https://www.facebook.com/)| 
 |[Twitter](https://twitter.com/)| 
+|[Reddit](http://reddit.com/)|
 
 
 
