@@ -14,6 +14,15 @@ In the age of social media, it has become more important than ever to be wary of
   * Which news sources create the most “Fake News.”
   * Which is shared and liked more, “Fake” or Real News? Why?
 
+# Outline 
+* Transform, Train & Test the Data.
+* Result & Analysis 
+* Visualizations 
+* Web Page Organization
+* Flask Rendering
+* Conclusion
+
+
 # Data Resources
 
 * [Facebook](https://www.facebook.com/)
@@ -21,9 +30,8 @@ In the age of social media, it has become more important than ever to be wary of
 * [Reddit](http://reddit.com/)
 
 
-
 ### Data Analytics Team:
 * [Alicia](https://github.com/aliciasply)
-* [Madha](https://github.com/medha795)
+* [Medha](https://github.com/medha795)
 * [Miguel](https://github.com/52Godfrey)
 * [Paola](https://github.com/paola1395)
