@@ -1,5 +1,5 @@
 
-# Project 3: “Fake News!” Detector
+# “Fake News!” Detector
 
 
 ![Logo](Image/fake_news_logo.jpg)
@@ -26,8 +26,6 @@ In the age of social media, it has become more important than ever to be wary of
 # Data Resources
 
 * [Facebook](https://www.facebook.com/)
-* [Twitter](https://twitter.com/)
-* [Reddit](http://reddit.com/)
 
 
 ### Data Analytics Team:
