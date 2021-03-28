@@ -36,7 +36,7 @@ p {
   transform: translateX(-50%);
 }
 
-.section-heading {
+.section-heading, #test {
   text-align: left;
   position: relative;
   margin-bottom: 60px;
