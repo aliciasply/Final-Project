@@ -18,7 +18,7 @@ In the age of social media, it has become more important than ever to be wary of
 * Transform, Train & Test the Data.
 * Result & Analysis 
 * Visualizations 
-* Web Page Organization
+* Web Page Creation 
 * Flask Rendering
 * Conclusion
 
@@ -31,7 +31,9 @@ In the age of social media, it has become more important than ever to be wary of
 
 
 ### Data Analytics Team:
-* [Alicia](https://github.com/aliciasply)
-* [Medha](https://github.com/medha795)
-* [Miguel](https://github.com/52Godfrey)
-* [Paola](https://github.com/paola1395)
+* [Miguel](https://github.com/52Godfrey) - Data collection, Data cleaning, Webscrape, Flask Rendering
+* [Paola](https://github.com/paola1395) - Data manipulation, Machine Learning model creation, model testing, model training
+* [Alicia](https://github.com/aliciasply) - Data cleaning, Data manipulation, Web page creation and visualizations in Python & Tableau
+* [Medha](https://github.com/medha795) - Data cleaning, Data manipulation, Visualization in Tableau & Python 
+
+
