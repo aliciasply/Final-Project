@@ -10,9 +10,10 @@ In the age of social media, it has become more important than ever to be wary of
 
 # Questions to Answer:
 
-  * Which social media sites contribute the most “Fake News.”
-  * Which news sources create the most “Fake News.”
-  * Which is shared and liked more, “Fake” or Real News? Why?
+  * Which news sites contribute the most “Fake" News?
+  * Which news sites contribute to the most Real News?
+  * Which is shared, liked and commented more, “Fake” or Real News? 
+  * What are the most-used "words" in Fake News Vs. Real News?
 
 # Outline 
 * Transform, Train & Test the Data.
@@ -25,7 +26,13 @@ In the age of social media, it has become more important than ever to be wary of
 
 # Data Resources
 
+* [BBC](https://www.bbc.com/)
+* [BuzzFeed Politics](https://www.buzzfeednews.com/section/politics)
+* [Conservative Post]()
+* [CNN](https://www.cnn.com/)
+* [Daily Mail](https://www.dailymail.co.uk/ushome/index.html)
 * [Facebook](https://www.facebook.com/)
+* [Fox News](https://www.foxnews.com/)
 
 
 ### Data Analytics Team:
