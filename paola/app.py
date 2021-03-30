@@ -4,7 +4,7 @@ from flask_cors import CORS
 import os
 import pickle
 import newspaper
-from newspaper import article
+from newspaper import Article
 import urllib
 import nltk
 # Download punkt sentence tokenizer
@@ -26,7 +26,12 @@ def homepage():
 # Route for model
 @app.route("/detect", methods=['GET', 'POST'])
 def predict():
-
+    url = request.get_data(as_text = True)
+    url = urllib.parse.unquote(url)
+    article = Article(str(url))
+    article.download()
+    article.parse()
+    article.nlp()
 
     news = article.summary
 
