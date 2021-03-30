@@ -268,6 +268,20 @@ https://templatemo.com/tm-518-sentra
                             <h1><em>Data</em></h1>
                             <p>Below data are webscraped data from social media post from various news sources - FoxsNews, DailyNews, CNN, NBC</p>
                         </div>
+                        {% extends "base.html" %}
+                        {% block title %}Index{% endblock %}
+                        {% block head %}
+                            {{ super() }}
+                            <style type="text/css">
+                                .important { color: #336699; }
+                            </style>
+                        {% endblock %}
+                        {% block content %}
+                        <h1>Index</h1>
+                        <p class="important">
+                            Welcome to my awesome homepage.
+                        </p>
+                        {% endblock %}
                         <div class="text-content">
                             <p>More text can be added here.</p>
                         </div>
