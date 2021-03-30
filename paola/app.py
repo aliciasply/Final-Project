@@ -2,10 +2,9 @@ import numpy as np
 from flask import Flask, request, jsonify, render_template, redirect
 from flask_cors import CORS
 import os
-from sklearn.externals import joblib
 import pickle
 import newspaper
-from newspaper import Article
+from newspaper import article
 import urllib
 import nltk
 # Download punkt sentence tokenizer
@@ -33,7 +32,7 @@ def predict():
 
     # Passing the news article and returning if it is 'Real' or 'Fake'
     prediction = model.predict([news])
-    return render_template('index.html', article_text = 'This article is "{}"'.format(pred[0]))
+    return render_template('index.html', article_text = 'This article is "{}"'.format(prediction[0]))
 
 
 
