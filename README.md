@@ -16,13 +16,15 @@ In the age of social media, it has become more important than ever to be wary of
   * What are the most-used "words" in Fake News Vs. Real News?
 
 # Outline 
-* Transform, Train & Test the Data.
-* Result & Analysis 
-* Visualizations 
-* Web Page Creation 
-* Flask Rendering
-* Conclusion
+ * Transform, Train & Test the Data.
+ * Result & Analysis 
+ * Visualizations 
+ * Web Page Creation 
+ * Flask Rendering
+ * Conclusion
 
+# Technology
+ * Machine Learning, NLP, Python, HTML/CSS/Bootstrap
 
 # Data Resources
 
