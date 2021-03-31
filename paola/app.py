@@ -12,7 +12,7 @@ nltk.download('punkt')
 
 #Load flask and model
 app = Flask(__name__)
-CORS
+CORS(app)
 model = pickle.load(open('fake_news_model.pickle','rb'))
 
 ####################################
