@@ -38,9 +38,8 @@ def predict():
 
     # Passing the news article and returning if it is 'Real' or 'Fake'
     prediction = model.predict([news])
-    return render_template('index4.html', prediction_text = 'This article is "{}"'.format(prediction[0]))
+    return render_template('index4.html', article_text = 'This article is "{}"'.format(prediction[0]))
 
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(debug = True, port = port, use_reloader = False)
+    app.run(debug = True, port=5000)
