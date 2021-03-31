@@ -153,8 +153,8 @@ https://templatemo.com/tm-518-sentra
                         
         <div class="form-group">
             <form action = "{{url_for('predict')}}" method = "post">
-                <label for="exampleInputEmail1">Fake News Detector</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter URL", required="required">
+                <label for="URL_input">Fake News Detector</label>
+                <input type="text" class="form-control" id="URL_input" placeholder="Enter URL" name="URL" required="required">
                 <br>
                 <button type="submit" class="btn btn-primary">Submit</button> 
                 <br>
@@ -162,7 +162,7 @@ https://templatemo.com/tm-518-sentra
                 
             </form>
             <br>
-            {{prediction_text}}
+            {{article_text}}
         </div>
 
                 <div class="section-heading">
