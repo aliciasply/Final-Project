@@ -14,6 +14,8 @@ app = Flask(__name__, template_folder='templates', static_url_path='')
 CORS(app)
 model = pickle.load(open('fake_news_model.pickle','rb'))
 
+
+
 ####################################
 # Flask Routes
 ####################################
@@ -25,7 +27,7 @@ def home():
 
 
 # Route for model
-@app.route("/detect", methods=['GET', 'POST'])
+@app.route("/predict", methods=['GET', 'POST'])
 def predict():
     url = request.get_data(as_text = True)
     url = urllib.parse.unquote(url)
@@ -33,14 +35,23 @@ def predict():
     article.download()
     article.parse()
     article.nlp()
+    
 
     news = article.summary
 
-    # Passing the news article and returning if it is 'Real' or 'Fake'
-    prediction = model.predict([news])
-    return render_template('index4.html', prediction_text = 'This article is "{}"'.format(prediction[0]))
+    # # Passing the news article and returning if it is 'Real' or 'Fake'
+    # prediction = model.predict([news])
+    # return render_template('index4.html', article_text = 'This article is "{}"'.format(prediction[0]))
 
+
+@app.route('/results',methods=['POST'])
+def results():
+
+    data = request.get_json(force=True)
+    prediction = model.predict([news])
+
+    output = prediction[0]
+    return render_template('index4.html', article_text = 'This article is "{}"'.format(prediction[0]))
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
-    app.run(debug = True, port = port, use_reloader = False)
+    app.run(debug = True, port=5000)
