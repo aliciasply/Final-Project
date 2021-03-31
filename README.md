@@ -16,7 +16,7 @@ In the age of social media, it has become more important than ever to be wary of
   * What are the most-used "words" in Fake News Vs. Real News?
 
 # Outline 
- * Transform, Train & Test the Data.
+ * Transform, Train & Test the Data
  * Result & Analysis 
  * Visualizations 
  * Web Page Creation 
@@ -40,7 +40,7 @@ In the age of social media, it has become more important than ever to be wary of
 ### Data Analytics Team:
 * [Miguel](https://github.com/52Godfrey) - Data collection, Data cleaning, Webscrape, Flask Rendering
 * [Paola](https://github.com/paola1395) - Data manipulation, Machine Learning model creation, model testing, model training
-* [Alicia](https://github.com/aliciasply) - Data cleaning, Data manipulation, Web page creation and visualizations in Python & Tableau
-* [Medha](https://github.com/medha795) - Data cleaning, Data manipulation, Visualization in Tableau & Python 
+* [Alicia](https://github.com/aliciasply) - Data cleaning, Data manipulation, Web page creation and visualizations in Python 
+* [Medha](https://github.com/medha795) - Data cleaning, Data manipulation, Visualization in Python 
 
 
