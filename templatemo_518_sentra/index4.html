@@ -146,10 +146,24 @@ https://templatemo.com/tm-518-sentra
                 <!-- // Item -->
             </div>
         </div>
-
-
         <div class="page-content">
             <section id="featured" class="content-section">
+
+        <div class="form-group">
+            <form action = "{{url_for('predict')}}" method = "post">
+                <label for="exampleInputEmail1">Fake News Detector</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter URL", required="required">
+                <br></br>
+                <button type="submit" class="btn btn-primary">Submit</button> 
+                <br></br>
+                <small id="emailHelp" class="form-text text-muted">This generator has 90+% accuracy.</small>
+                
+            </form>
+            <br>
+            <!-- {{prediction_text}} -->
+
+        </div>
+
                 <div class="section-heading">
                     <h1><em>About Us</em></h1>
                     <!-- <h1><em>About us</em></h1> -->
