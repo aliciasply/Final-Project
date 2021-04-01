@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Fake News! Detector</title>
+        
+<!-- 
+
+Sentra Template
+
+https://templatemo.com/tm-518-sentra
+
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/light-box.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <!-- <link rel="stylesheet" href="css/templatemo-style.css"> -->
+        <link rel="stylesheet" href="css/templatemo-style1.css">
+        
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+<body>
+
+
+
+        <header class="nav-down responsive-nav hidden-lg hidden-md">
+            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--/.navbar-header-->
+            <div id="main-nav" class="collapse navbar-collapse">
+                <nav>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#projects1">All News Summary</a></li>
+                        <li><a href="#projects2">Real/Fake Summary</a></li>
+                        <li><a href="#projects3">News Source Summary</a></li>
+                        <li><a href="#projects4">Top 5 "Real" - Likes</a></li>
+                        <li><a href="#projects5">Top 5 "Fake" - Likes</a></li>
+                        <li><a href="#projects6">Top 5 "Real" - Comments</a></li>
+                        <li><a href="#projects7">Top 5 "Fake" - Comments</a></li>
+                        <li><a href="#projects8">Top 5 "Real" - Shares</a></li>
+                        <li><a href="#projects9">Top 5 "Fake" - Shares</a></li>
+                        <li><a href="#projects10">True Words</a></li>
+                        <li><a href="#projects11">False Words</a></li>
+                        <li><a href="#projects12">TSNE True</a></li>
+                        <li><a href="#projects13">TSNE False</a></li>
+                        <!-- <li><a href="#blog">Blog Entries</a></li> -->
+                        <!-- <li><a href="#contact">Contact Us</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="sidebar-navigation hidde-sm hidden-xs">
+            <div class="logo">
+                <a href="index.html"><em>Home</em></a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#projects1">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            All News Summary
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects2">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Real/Fake News Summary
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects3">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            News Source Summary
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects4">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Top 5 "Real" - Likes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects5">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Top 5 "Fake" - Likes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects6">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Top 5 "Real" - Comments
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects7">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Top 5 "Fake" - Comments
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects8">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Top 5 "Real" - Shares
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects9">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Top 5 "Fake" - Shares
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects10">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            Word Clouds
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects12">
+                            <span class="rect"></span>
+                            <span class="circle"></span>
+                            TSNE - Posts
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+
+        <div class="slider">
+            <div class="Modern-Slider content-section" id="top">
+                <!-- Item -->
+                <div class="item item-1">
+                    <div class="img-fill">
+                    <div class="image"></div>
+                    <div class="info">
+                        <div>
+                          <h1>Fake News! Detector</h1>
+                          <p>Machine Learning Project</p>
+                    
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- // Item -->
+                <!-- Item -->
+                <div class="item item-2">
+                    <div class="img-fill">
+                        <div class="image"></div>
+                        <div class="info">
+                        <div>
+                          <!-- <h1>Please tell <br>your friends</h1>
+                          <p>Support templatemo by sharing a link to your friends.
+							<br>Thank you for helping us.</p> -->
+                          
+                          
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+                <!-- // Item -->
+            </div>
+        </div>
+        <div class="page-content">
+
+            <section id="projects1" class="content-section">
+                <div class="section-heading">
+                    <h1><em>All News Summary</em></h1>
+                    <p>Below visualization are done using Python</p>
+                </div>
+                <div class="section-content">
+                    <div class="masonry">
+                        <div class="row">
+                            <div class="item">
+                                <div class="col-md-8">
+                                    <a href="all_news_summary.html"><img src="img/all_news_summary.jpg" alt="image 1" width="1300" height="500"></a>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            <section id="projects2" class="content-section">
+                <div class="section-heading">
+                    <h1><em>Real/Fake Summary</em></h1>
+                    <p>Below visualization are done using Python</p>
+                </div>
+                <div class="section-content">
+                    <div class="masonry">
+                        <div class="row">
+                            <div class="item">
+                                <div class="col-md-8">
+                                    <a href="fake_real_count.html"><img src="img/summary.jpg" alt="image 1" width="1300" height="500"></a>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            <section id="projects3" class="content-section">
+                <div class="section-heading">
+                    <h1><em>News Source Summary</em></h1>
+                    <p>Below visualization are done using Python</p>
+                </div>
+                <div class="section-content">
+                    <div class="masonry">
+                        <div class="row">
+                            <div class="item">
+                                <div class="col-md-8">
+                                    <a href="img/summary_realfake.jpg"><img src="img/summary_realfake.jpg" alt="image 1" width="1300" height="600"></a>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            <section id="projects4" class="content-section">
+                <div class="section-heading">
+                    <h1><em>Top 5 "Real" - Likes</em></h1>
+                    <p>Below visualization are done using Python</p>
+                </div>
+                <div class="section-content">
+                    <div class="masonry">
+                        <div class="row">
+                            <div class="item">
+                                <div class="col-md-8">
+                                    <a href="top5real_likebar.html"><img src="img/top5real_likebar.jpg" alt="image 1" width="1300" height="600"></a>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>            
+            </section>
+            <section id="projects5" class="content-section">
+                <div class="section-heading">
+                    <h1><em>Top 5 "Fake" - Likes</em></h1>
+                    <p>Below visualization are done using Python</p>
+                </div>
+                <div class="section-content">
+                    <div class="masonry">
+                        <div class="row">
+                            <div class="item">
+                                <div class="col-md-8">
+                                    <a href="top5Fake_likebar.html"><img src="img/top5Fake_likesbar.jpg" alt="image 1" width="1300" height="600"></a>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>            
+            </section>
+                <section id="projects6" class="content-section">
+                    <div class="section-heading">
+                        <h1><em>Top 5 "Real" - Comments</em></h1>
+                        <p>Below visualization are done using Python</p>
+                    </div>
+                    <div class="section-content">
+                        <div class="masonry">
+                            <div class="row">
+                                <div class="item">
+                                    <div class="col-md-8">
+                                        <a href="top5real_commentbar.html"><img src="img/top5real_commentbar.jpg" alt="image 1" width="1300" height="600"></a>
+                                    </div>
+                                </div>
+                             
+                            </div>
+                        </div>
+                    </div>            
+                </section>
+                    <section id="projects7" class="content-section">
+                        <div class="section-heading">
+                            <h1><em>Top 5 "Fake" - Comments</em></h1>
+                            <p>Below visualization are done using Python</p>
+                        </div>
+                        <div class="section-content">
+                            <div class="masonry">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="col-md-8">
+                                            <a href="top5Fake_commentbar.html"><img src="img/top5Fake_commentbar.jpg" alt="image 1" width="1300" height="600"></a>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>            
+                    </section>
+                    <section id="projects8" class="content-section">
+                        <div class="section-heading">
+                            <h1><em>Top 5 "Real" - Shares</em></h1>
+                            <p>Below visualization are done using Python</p>
+                        </div>
+                        <div class="section-content">
+                            <div class="masonry">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="col-md-8">
+                                            <a href="top5real_sharebar.html"><img src="img/top5real_sharebar.jpg" alt="image 1" width="1300" height="600"></a>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>            
+                    </section>
+                    <section id="projects9" class="content-section">
+                        <div class="section-heading">
+                            <h1><em>Top 5 "Fake" - Shares</em></h1>
+                            <p>Below visualization are done using Python</p>
+                        </div>
+                        <div class="section-content">
+                            <div class="masonry">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="col-md-8">
+                                            <a href="top5Fake_sharebar.html"><img src="img/top5Fake_sharebar.jpg" alt="image 1" width="1300" height="600"></a>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>            
+                    </section>
+                    <section id="projects10" class="content-section">
+                        <div class="section-heading">
+                            <h1><em>Word Cloud - "Real" Posts</em></h1>
+                            <p>Below visualization are done using Python</p>
+                        </div>
+                        <div class="section-content">
+                            <div class="masonry">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="col-md-8">
+                                            <a href="img/true_words.jpg"><img src="img/true_words.jpg" alt="image 1" width="800" height="500"></a>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>            
+                    </section>
+                    <section id="projects11" class="content-section">
+                        <div class="section-heading">
+                            <h1><em>Word Cloud - "Fake" Posts</em></h1>
+                            <p>Below visualization are done using Python</p>
+                        </div>
+                        <div class="section-content">
+                            <div class="masonry">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="col-md-8">
+                                            <a href="img/false_words.jpg"><img src="img/false_words.jpg" alt="image 1" width="800" height="500"></a>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>            
+                    </section>
+                    <section id="projects12" class="content-section">
+                        <div class="section-heading">
+                            <h1><em>TSNE - "Real" Posts</em></h1>
+                            <p>Below visualization are done using Python</p>
+                        </div>
+                        <div class="section-content">
+                            <div class="masonry">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="col-md-8">
+                                            <a href="img/TSNE_true.jpg"><img src="img/TSNE_true.jpg" alt="image 1" width="1300" height="600"></a>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>            
+                    </section>
+                    <section id="projects13" class="content-section">
+                        <div class="section-heading">
+                            <h1><em>TSNE - "Fake" Posts</em></h1>
+                            <p>Below visualization are done using Python</p>
+                        </div>
+                        <div class="section-content">
+                            <div class="masonry">
+                                <div class="row">
+                                    <div class="item">
+                                        <div class="col-md-8">
+                                            <a href="img/TSNE_fake.jpg"><img src="img/TSNE_fake.jpg" alt="image 1" width="1300" height="600"></a>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>            
+                    </section>
+                    <section class="footer">
+                <p>Copyright &copy; 2019 
+                
+                . Design: TemplateMo</p>
+            </section>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        // Hide Header on on scroll down
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = $('header').outerHeight();
+
+        $(window).scroll(function(event){
+            didScroll = true;
+        });
+
+        setInterval(function() {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(this).scrollTop();
+            
+            // Make sure they scroll more than delta
+            if(Math.abs(lastScrollTop - st) <= delta)
+                return;
+            
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight){
+                // Scroll Down
+                $('header').removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                if(st + $(window).height() < $(document).height()) {
+                    $('header').removeClass('nav-up').addClass('nav-down');
+                }
+            }
+            
+            lastScrollTop = st;
+        }
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+</body>
+</html>

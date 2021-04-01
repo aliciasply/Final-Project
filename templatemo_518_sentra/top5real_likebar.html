@@ -1,0 +1,105 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>top5real_likebar</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://unpkg.com/tabulator-tables@4.9.3/dist/css/tabulator_simple.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.1/dist/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.1/dist/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.1/dist/css/widgets.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.1/dist/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.1/dist/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.1/dist/css/loading.css" type="text/css" />
+        <link rel="stylesheet" href="https://unpkg.com/@holoviz/panel@0.11.1/dist/css/dataframe.css" type="text/css" />
+        <style>
+            
+                    .bk.pn-loading.arcs:before {
+                      background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ibWFyZ2luOiBhdXRvOyBiYWNrZ3JvdW5kOiBub25lOyBkaXNwbGF5OiBibG9jazsgc2hhcGUtcmVuZGVyaW5nOiBhdXRvOyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIj4gIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMyIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZT0iI2MzYzNjMyIgc3Ryb2tlLWRhc2hhcnJheT0iNTAuMjY1NDgyNDU3NDM2NjkgNTAuMjY1NDgyNDU3NDM2NjkiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+ICAgIDxhbmltYXRlVHJhbnNmb3JtIGF0dHJpYnV0ZU5hbWU9InRyYW5zZm9ybSIgdHlwZT0icm90YXRlIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgZHVyPSIxcyIga2V5VGltZXM9IjA7MSIgdmFsdWVzPSIwIDUwIDUwOzM2MCA1MCA1MCI+PC9hbmltYXRlVHJhbnNmb3JtPiAgPC9jaXJjbGU+PC9zdmc+")
+                    }
+                    
+        </style>
+        
+        
+          
+        <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.9.3/dist/js/tabulator.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/moment@2.27.0/moment.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.3.0.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/@holoviz/panel@^0.11.1/dist/panel.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="d5018467-e8bb-4f0f-9e0a-a0a113ac02e2" data-root-id="3682"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="3810">
+          {"cf8873c6-23fa-415c-acbd-41bc63537122":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{},"id":"3703","type":"SaveTool"},{"attributes":{"end":200000,"reset_end":200000,"reset_start":0,"tags":[[["Facebook_likes","Facebook_likes",null]]]},"id":"3685","type":"Range1d"},{"attributes":{},"id":"3730","type":"AllLabels"},{"attributes":{"factors":["Fox News","BBC","BuzzFeed Politics"],"tags":[[["Title","Title",null]]]},"id":"3684","type":"FactorRange"},{"attributes":{},"id":"3743","type":"UnionRenderers"},{"attributes":{"axis_label":"Number of Likes","formatter":{"id":"3727"},"major_label_policy":{"id":"3733"},"ticker":{"id":"3700"}},"id":"3699","type":"LinearAxis"},{"attributes":{},"id":"3692","type":"CategoricalScale"},{"attributes":{},"id":"3729","type":"CategoricalTickFormatter"},{"attributes":{"children":[{"id":"3683"},{"id":"3687"},{"id":"3754"}],"margin":[0,0,0,0],"name":"Row05885","tags":["embedded"]},"id":"3682","type":"Row"},{"attributes":{"callback":null,"renderers":[{"id":"3725"}],"tags":["hv_created"],"tooltips":[["Title","@{Title}"],["Facebook_likes","@{Facebook_likes}"]]},"id":"3686","type":"HoverTool"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer05889","sizing_mode":"stretch_width"},"id":"3683","type":"Spacer"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"3708","type":"BoxAnnotation"},{"attributes":{"data_source":{"id":"3717"},"glyph":{"id":"3720"},"hover_glyph":{"id":"3723"},"muted_glyph":{"id":"3724"},"nonselection_glyph":{"id":"3721"},"selection_glyph":{"id":"3722"},"view":{"id":"3726"}},"id":"3725","type":"GlyphRenderer"},{"attributes":{},"id":"3700","type":"BasicTicker"},{"attributes":{},"id":"3704","type":"PanTool"},{"attributes":{"source":{"id":"3717"}},"id":"3726","type":"CDSView"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer05890","sizing_mode":"stretch_width"},"id":"3754","type":"Spacer"},{"attributes":{},"id":"3718","type":"Selection"},{"attributes":{},"id":"3694","type":"LinearScale"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"color","transform":{"id":"3716"}},"line_alpha":{"value":0.2},"top":{"field":"Facebook_likes"},"width":{"value":0.8},"x":{"field":"Title"}},"id":"3724","type":"VBar"},{"attributes":{"fill_color":{"field":"color","transform":{"id":"3716"}},"top":{"field":"Facebook_likes"},"width":{"value":0.8},"x":{"field":"Title"}},"id":"3720","type":"VBar"},{"attributes":{"high":187000.0,"low":91000.0,"palette":["#b3fef5","#b0fef5","#adfdf5","#a9fcf5","#a6fbf6","#a3faf6","#a0faf6","#9df9f6","#9af8f6","#97f7f6","#93f7f6","#90f6f6","#8df5f6","#8af4f7","#87f3f7","#83f2f7","#80f2f7","#7df1f7","#79f0f7","#76eff7","#73eef7","#6fedf8","#6cecf8","#68ecf8","#65ebf8","#61eaf8","#5ee9f8","#5ae8f8","#57e7f8","#53e6f8","#50e5f9","#4ce4f9","#49e3f9","#45e2f9","#42e1f9","#3ee0f9","#3bdff9","#38def9","#35ddf9","#32dcf9","#30dbfa","#2ed9fa","#2dd8fa","#2cd7fa","#2bd6fa","#2bd5fa","#2ad3fa","#2ad2fa","#29d1fa","#29d0fb","#29cffb","#28cdfb","#28ccfb","#28cbfb","#28cafb","#28c8fb","#28c7fb","#29c6fb","#29c5fb","#29c4fb","#29c2fb","#2ac1fb","#2ac0fb","#2bbffb","#2bbdfc","#2cbcfc","#2dbbfc","#2db9fc","#2eb8fc","#2fb7fc","#2fb6fc","#30b4fc","#31b3fc","#32b2fc","#32b0fc","#33affc","#33aefc","#34adfc","#34abfc","#34aafc","#35a9fc","#35a8fc","#35a6fc","#35a5fc","#35a4fc","#35a3fc","#35a1fc","#35a0fc","#359ffc","#359dfc","#359cfc","#359bfc","#349afd","#3498fd","#3497fd","#3396fd","#3395fd","#3293fd","#3292fd","#3191fd","#3090fd","#308ffd","#2f8dfd","#2f8cfd","#2e8bfd","#2e8afd","#2d88fd","#2d87fd","#2c86fd","#2c84fd","#2c83fd","#2c82fd","#2b81fd","#2b7ffd","#2b7efd","#2b7dfd","#2b7bfd","#2b7afd","#2b79fd","#2b77fd","#2b76fd","#2b75fd","#2b73fd","#2c72fd","#2c71fd","#2c6ffd","#2c6efd","#2d6cfd","#2d6bfd","#2d6afc","#2e68fc","#2e67fc","#2e65fc","#2e64fc","#2f62fc","#2f61fc","#2f5ffc","#2f5efc","#2f5dfc","#2f5bfc","#2f5afc","#2f58fb","#2f57fb","#2f55fb","#2f53fb","#2f52fb","#2f50fb","#2f4ffb","#2f4dfb","#2e4cfb","#2e4afb","#2e48fb","#2e47fa","#2d45fa","#2d43fa","#2d42fa","#2d40fa","#2c3efa","#2c3dfa","#2b3bf9","#2b39f9","#2a37f9","#2a36f8","#2934f8","#2832f7","#2831f7","#272ff6","#262ef5","#252cf5","#252af4","#2429f3","#2327f2","#2226f1","#2124f0","#2023ef","#1f22ee","#1e20ed","#1d1feb","#1c1eea","#1b1ce9","#1a1be7","#181ae6","#1719e5","#1618e3","#1417e1","#1316e0","#1215de","#1014dc","#0f13db","#0e12d9","#0d11d7","#0c10d5","#0b0fd3","#0a0ed1","#090dd0","#080dce","#080ccc","#070bca","#070ac8","#0709c6","#0708c4","#0707c2","#0707bf","#0806bd","#0806bb","#0905b9","#0904b7","#0a04b5","#0a04b2","#0b03b0","#0c03ae","#0d02ab","#0e02a9","#0e02a7","#0f02a4","#0f01a2","#1001a0","#10019d","#10019b","#100199","#100197","#100194","#0f0192","#0f0190","#0f018e","#0e018b","#0e0189","#0d0187","#0d0185","#0c0183","#0b0181","#0b017e","#0a017c","#09017a","#090178","#080276","#070274","#060272","#060270","#05026e","#04026c","#030269","#030267","#020265","#010263","#010261","#00025f","#00025d","#00025b","#000259","#000257","#000255","#000154","#000152","#000150","#00004e"]},"id":"3716","type":"LinearColorMapper"},{"attributes":{"data":{"Facebook_likes":{"__ndarray__":"AAAAAMDTBkEAAAAAgA39QAAAAACADf1AAAAAAIAT/EAAAAAAgDf2QA==","dtype":"float64","order":"little","shape":[5]},"Title":["Fox News","BBC","BuzzFeed Politics","BuzzFeed Politics","BuzzFeed Politics"],"color":{"__ndarray__":"AAAAAMDTBkEAAAAAgA39QAAAAACADf1AAAAAAIAT/EAAAAAAgDf2QA==","dtype":"float64","order":"little","shape":[5]}},"selected":{"id":"3718"},"selection_policy":{"id":"3743"}},"id":"3717","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"3696"}],"center":[{"id":"3698"},{"id":"3702"}],"height":300,"left":[{"id":"3699"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"renderers":[{"id":"3725"}],"sizing_mode":"fixed","title":{"id":"3688"},"toolbar":{"id":"3709"},"width":800,"x_range":{"id":"3684"},"x_scale":{"id":"3692"},"y_range":{"id":"3685"},"y_scale":{"id":"3694"}},"id":"3687","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"3705","type":"WheelZoomTool"},{"attributes":{"axis_label":"News Channel","formatter":{"id":"3729"},"major_label_policy":{"id":"3730"},"ticker":{"id":"3697"}},"id":"3696","type":"CategoricalAxis"},{"attributes":{"fill_color":{"field":"color","transform":{"id":"3716"}},"line_color":{"value":"pink"},"top":{"field":"Facebook_likes"},"width":{"value":0.8},"x":{"field":"Title"}},"id":"3723","type":"VBar"},{"attributes":{},"id":"3697","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"color","transform":{"id":"3716"}},"line_alpha":{"value":0.1},"top":{"field":"Facebook_likes"},"width":{"value":0.8},"x":{"field":"Title"}},"id":"3721","type":"VBar"},{"attributes":{"fill_color":{"field":"color","transform":{"id":"3716"}},"top":{"field":"Facebook_likes"},"width":{"value":0.8},"x":{"field":"Title"}},"id":"3722","type":"VBar"},{"attributes":{},"id":"3733","type":"AllLabels"},{"attributes":{"text":"Top 5 Most-Like Real News Post","text_color":"black","text_font_size":"12pt"},"id":"3688","type":"Title"},{"attributes":{"axis":{"id":"3696"},"grid_line_color":null,"ticker":null},"id":"3698","type":"Grid"},{"attributes":{"axis":{"id":"3699"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"3702","type":"Grid"},{"attributes":{"active_multi":null,"tools":[{"id":"3686"},{"id":"3703"},{"id":"3704"},{"id":"3705"},{"id":"3706"},{"id":"3707"}]},"id":"3709","type":"Toolbar"},{"attributes":{"overlay":{"id":"3708"}},"id":"3706","type":"BoxZoomTool"},{"attributes":{},"id":"3707","type":"ResetTool"},{"attributes":{"format":"%0f"},"id":"3727","type":"PrintfTickFormatter"}],"root_ids":["3682"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('3810').textContent;
+                  var render_items = [{"docid":"cf8873c6-23fa-415c-acbd-41bc63537122","root_ids":["3682"],"roots":{"3682":"d5018467-e8bb-4f0f-9e0a-a0a113ac02e2"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
