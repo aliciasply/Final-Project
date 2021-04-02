@@ -21,10 +21,10 @@ In the age of social media, it has become more important than ever to be wary of
  * Visualizations 
  * Web Page Creation 
  * Flask Rendering
- * Conclusion
+ * Deployment to Heroku
 
 # Technology
- * Machine Learning, NLP, Python, HTML/CSS/Bootstrap
+ * Machine Learning, NLP, Python, HTML/CSS/Bootstrap, Heroku Deployment 
 
 # Data Resources
 
@@ -38,7 +38,7 @@ In the age of social media, it has become more important than ever to be wary of
 
 
 ### Data Analytics Team:
-* [Miguel](https://github.com/52Godfrey) - Data collection, Data cleaning, Webscrape, Flask Rendering
+* [Miguel](https://github.com/52Godfrey) - Data collection, Data cleaning, Webscrape, Flask Rendering, Heroku Deployment 
 * [Paola](https://github.com/paola1395) - Data manipulation, Machine Learning model creation, model testing, model training
 * [Alicia](https://github.com/aliciasply) - Data cleaning, Data manipulation, Web page creation and visualizations in Python 
 * [Medha](https://github.com/medha795) - Data cleaning, Data manipulation, Visualization in Python 
