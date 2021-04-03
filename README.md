@@ -1,5 +1,5 @@
 # “Fake News!” Detector
-### https://fake-news-detector-project.herokuapp.com/
+### [https://fake-news-detector-project.herokuapp.com/](Fake News Detector)
 
 
 ![Logo](Image/new_fake_logo.gif)
@@ -44,7 +44,7 @@ Read our analysis here! https://docs.google.com/document/d/1i3ppTAVp6_3ZUh6Dt7e_
 
 ## Data
 
-* https://www.kaggle.com/hassanamin/textdb3 (training data)
+* [https://www.kaggle.com/hassanamin/textdb3](training data)
 * [BBC](https://www.bbc.com/)
 * [BuzzFeed Politics](https://www.buzzfeednews.com/section/politics)
 * [Conservative Post]()
