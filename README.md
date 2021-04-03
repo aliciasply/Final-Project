@@ -2,7 +2,7 @@
 ### https://fake-news-detector-project.herokuapp.com/
 
 
-![Logo](new_fake_logo.gif)
+![Logo](Image/new_fake_logo.gif)
 
 ## Background and Motivation: 
 
