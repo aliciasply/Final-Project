@@ -1,5 +1,5 @@
 # “Fake News!” Detector
-### [https://fake-news-detector-project.herokuapp.com/](Fake News Detector)
+### [Fake News Detector](https://fake-news-detector-project.herokuapp.com/)
 
 
 ![Logo](Image/new_fake_logo.gif)
@@ -7,7 +7,7 @@
 ## Background and Motivation: 
 
 In the age of social media, it has become more important than ever to be wary of what we read on all platforms. Social media has made it easier to connect with the world and has great influence on the masses as anyone can share anything. What we wanted to do was to find a way to weed out the real news from the fake news. And, more importantly, we wanted to find a way to measure the impact that fake news has on society as a whole. In doing so, we created a machine learning model that predicts if articles are "real" and "fake".  With the model created, we ran through thousands of articles posted on Facebook from top news sources (BBC, Buzzfeed Politics, Conservative Post, CNN, Daily Mail, and Fox News).
-Read our analysis here! https://docs.google.com/document/d/1i3ppTAVp6_3ZUh6Dt7e_Zl4LL0Ynhm-JyUPqZeueA9c/edit?usp=sharing
+Read our [analysis](https://docs.google.com/document/d/1i3ppTAVp6_3ZUh6Dt7e_Zl4LL0Ynhm-JyUPqZeueA9c/edit?usp=sharing) here! 
 
 ## Questions to Answer:
 
@@ -44,7 +44,7 @@ Read our analysis here! https://docs.google.com/document/d/1i3ppTAVp6_3ZUh6Dt7e_
 
 ## Data
 
-* [https://www.kaggle.com/hassanamin/textdb3](training data)
+* [Training Data](https://www.kaggle.com/hassanamin/textdb3)
 * [BBC](https://www.bbc.com/)
 * [BuzzFeed Politics](https://www.buzzfeednews.com/section/politics)
 * [Conservative Post]()
