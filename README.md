@@ -1,5 +1,5 @@
 # “Fake News!” Detector
-[Fake News Detector](https://fake-news-detector-project.herokuapp.com/)
+[Try out our Fake News Detector](https://fake-news-detector-project.herokuapp.com/)
 
 
 ![Logo](Image/new_fake_logo.gif)
